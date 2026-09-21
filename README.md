@@ -1,4 +1,4 @@
-# QueryMind — Learning-Based Query Optimizer
+# QueryMind - Learning-Based Query Optimizer
 
 A lightweight, research-oriented query optimizer in Python that explores how machine learning can assist and complement traditional database query optimization.
 
@@ -6,7 +6,7 @@ A lightweight, research-oriented query optimizer in Python that explores how mac
 
 ## 📌 Overview
 
-Traditional database query optimizers estimate query execution costs using static heuristics, system statistics, and mathematical cost formulas. However, imprecise cardinality estimates—especially on complex multi-join queries or skewed data distributions—can lead optimizers to select suboptimal execution plans.
+Traditional database query optimizers estimate query execution costs using static heuristics, system statistics, and mathematical cost formulas. However, imprecise cardinality estimates-especially on complex multi-join queries or skewed data distributions-can lead optimizers to select suboptimal execution plans.
 
 **QueryMind** investigates whether machine learning models (such as Random Forest, Gradient Boosting, or Neural Networks) can accurately predict cardinalities and execution runtimes to select more efficient execution plans.
 
