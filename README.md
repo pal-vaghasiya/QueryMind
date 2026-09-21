@@ -79,7 +79,7 @@ QueryMind includes automated setup scripts for both **Linux/macOS** (`run.sh`) a
 #### Train the ML Models with Epochs:
 To train the Cardinality and Cost models on synthetic workload data:
 ```bash
-./run.sh --train --epochs 50
+./run.sh -Train -Epochs 50
 ```
 
 #### Run Unit Tests & Experimental Evaluation Benchmark:
