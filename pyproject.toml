@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "querymind"
+version = "0.1.0"
+description = "QueryMind - Learning-Based Query Optimizer"
+readme = "README.md"
+authors = [{ name = "QueryMind Team" }]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=1.4.0",
+    "scikit-learn>=1.0.0",
+    "sqlglot>=10.0.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+QueryMind README.pdf
+data/processed/
+models/*.pkl
+.pytest_cache/
